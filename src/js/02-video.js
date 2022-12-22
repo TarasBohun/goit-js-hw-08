@@ -1,4 +1,4 @@
-var throttle = require('lodash.throttle');
+import throttle from 'lodash.throttle';
 
 import Player from '@vimeo/player';
 
@@ -31,3 +31,4 @@ function resumeTime() {
       });
   console.log(setTime);
 }
+console.log('dc');
